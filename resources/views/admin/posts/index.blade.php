@@ -46,7 +46,7 @@
                         <td>
                             <a href="{{ route('admin.posts.edit', $post->id) }}">編輯</a>
                             /
-                            <a href="#">刪除</a>
+                            <a href="{{ route('admin.posts.destroy', $post->id) }}">刪除</a>
                         </td>
                     </tr>
                 @endforeach
